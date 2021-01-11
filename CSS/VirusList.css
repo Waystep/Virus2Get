@@ -1,0 +1,29 @@
+a {
+    color: #5165ff;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: slategray;
+    width: 600px;
+    content: center;
+}
+
+td {
+    border: 2px solid whitesmoke;
+    position: relative;
+    text-align: center;
+}
+
+tr:hover,
+tr:focus-within {
+    background: red;
+    outline: none;
+}
+
+td > a:first-child {
+    text-decoration: none;
+    color: inherit;
+    z-index: 0;
+    outline: 0;
+}

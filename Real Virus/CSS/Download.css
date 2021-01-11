@@ -1,0 +1,29 @@
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.btn2 {
+    background-color: #bf0000;
+    border: none;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background: #850000;  
+}
+
+body{
+  background: gray;
+
+}
